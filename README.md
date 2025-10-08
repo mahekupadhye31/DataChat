@@ -10,7 +10,6 @@
 **DataChat** is an AI-powered web application that allows users to **upload datasets**, **automatically generate visual insights**, and **converse with their data** through natural language queries.  
 
 It bridges the gap between **data visualization** and **AI-driven analytics**, enabling anyone to explore datasets effortlessly.
-
 <p align="center"> <img src="src/app/utils/zero.png" alt="User Interface" width="600"/> <br> <em>User Interface</em> </p>
 
 
