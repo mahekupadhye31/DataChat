@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💬 DataChat – Chat with Your Data
 
-## Getting Started
+**DataChat** is an AI-powered web application that allows users to **upload datasets**, **automatically generate visual insights**, and **converse with their data** through natural language queries.  
 
-First, run the development server:
+It bridges the gap between **data visualization** and **AI-driven analytics**, enabling anyone to explore datasets effortlessly.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center"> <img src="templates/ui3.png" alt="User Interface" width="600"/> <br> <em>Fig 5. User Interface</em> </p>
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 📁 **Dataset Upload** – Upload CSV or Excel files for instant analysis  
+- 📊 **Auto Chart Generation** – Automatically generate interactive charts with Plotly  
+- 🤖 **Chat with Data** – Ask questions about your dataset using natural language  
+- 💾 **Data Persistence** – Store uploaded datasets and chat history in MongoDB  
+- ⚡ **Modern UI** – Built with Next.js and Tailwind CSS for a smooth experience  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | [Next.js](https://nextjs.org/), [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/) |
+| **Charts** | [Plotly.js](https://plotly.com/javascript/) |
+| **Backend** | Next.js API Routes |
+| **AI Integration** | [OpenAI API](https://platform.openai.com/docs/api-reference) |
+| **Database** | [MongoDB](https://www.mongodb.com/) |
+| **File Parsing** | [Papaparse](https://www.papaparse.com/) / [Multer](https://github.com/expressjs/multer) |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🏗️ Architecture Overview
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```plaintext
+User → Next.js Frontend → API Routes → MongoDB
+                          ↘
+                           → OpenAI API → Chart Summaries & Insights
