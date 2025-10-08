@@ -1,5 +1,9 @@
 # 💬 DataChat – Chat with Your Data
 
+[Next.js](https://nextjs.org/) – MIT License  
+[Plotly.js](https://plotly.com/javascript/) – MIT License  
+[MongoDB Node.js Driver](https://www.npmjs.com/package/mongodb) – Apache 2.0 License
+
 **DataChat** is an AI-powered web application that allows users to **upload datasets**, **automatically generate visual insights**, and **converse with their data** through natural language queries.  
 
 It bridges the gap between **data visualization** and **AI-driven analytics**, enabling anyone to explore datasets effortlessly.
