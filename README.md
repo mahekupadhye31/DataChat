@@ -17,8 +17,8 @@ It bridges the gap between **data visualization** and **AI-driven analytics**, e
 
 ## 🖼️ Demonstrations
 <p align="center"> <img src="src/app/utils/first.png" alt="User Interface" width="600"/>  </p>
-<p align="center"> <img src="src/app/utils/second.png" alt="User Interface" width="600"/>  </p>
-<p align="center"> <img src="src/app/utils/third.png" alt="User Interface" width="600"/> </p>
+<!-- <p align="center"> <img src="src/app/utils/second.png" alt="User Interface" width="600"/>  </p>
+<p align="center"> <img src="src/app/utils/third.png" alt="User Interface" width="600"/> </p> -->
 <p align="center"> <img src="src/app/utils/fourth.png" alt="User Interface" width="600"/> </p>
 <p align="center"> <img src="src/app/utils/fifth.png" alt="User Interface" width="600"/> <br>  </p>
 <p align="center"> <img src="src/app/utils/sixth.jpg" alt="User Interface" width="600"/> <br> </p>
